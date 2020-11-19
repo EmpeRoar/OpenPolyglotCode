@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
+using System.Timers;
 
 namespace Csharp_Play
 {
@@ -27,12 +29,30 @@ namespace Csharp_Play
             }
 
             Console.WriteLine("-----------------");
-            Console.WriteLine("Hello C#!");
+            Console.WriteLine("Ending C#!");
 
+        }
+
+
+        private static void OnTimeEvent(Object src, ElapsedEventArgs e)
+        {
+            Console.WriteLine("xxxx");
         }
 
         static async Task Main(string[] args)
         {
+
+            var aTimer = new System.Timers.Timer(2000);
+            // Hook up the Elapsed event for the timer.
+            aTimer.Elapsed += OnTimeEvent;
+            aTimer.AutoReset = true;
+            aTimer.Enabled = true;
+
+            await Task.Run(() =>
+            {
+                Console.WriteLine("Hello c#");
+            });
+
             Play(args);
 
 
