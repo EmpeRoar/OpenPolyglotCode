@@ -1,0 +1,22 @@
+#jbx-carousel-container {    
+   width: 700px;
+   border: 1px solid red;
+   overflow: hidden;
+   height: 300px;
+}
+
+#jbx-carousel {
+  
+   height: 300px;
+   width: 2000px;
+}
+
+#jbx-carousel div.item {
+    float: left;
+    width: 200px;
+    padding: 15px;
+}
+
+div.item img {
+    width: 100%;
+}
