@@ -6,9 +6,8 @@
 }
 
 #jbx-carousel {  
-   position: relative;
+   position: absolute;
    height: 300px;
-   width: 2000px;
 }
 
 #jbx-carousel div.item {
