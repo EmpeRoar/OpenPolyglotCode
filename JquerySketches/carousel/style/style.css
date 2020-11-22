@@ -5,8 +5,8 @@
    height: 300px;
 }
 
-#jbx-carousel {
-  
+#jbx-carousel {  
+   position: relative;
    height: 300px;
    width: 2000px;
 }
@@ -17,6 +17,9 @@
     padding: 15px;
 }
 
+
+
 div.item img {
     width: 100%;
 }
+

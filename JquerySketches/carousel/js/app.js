@@ -1,10 +1,18 @@
 $(document).ready(function() {
     console.log('its working!');
-    
+    let xpos = 0;
+
+
     $('#left').on('click', function(){
-        console.log('left is clicked');
+        var div = $("div#jbx-carousel");  
+        div.animate({left: xpos+=700});
     });
     $('#right').on('click', function(){
-        console.log('right is clicked');
+        
+
+        var div = $("div#jbx-carousel");  
+        div.animate({left: xpos-=700});
+
+       
     });
 });
