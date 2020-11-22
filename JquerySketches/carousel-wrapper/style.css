@@ -25,6 +25,14 @@
 .multi-item-carousel .carousel-control.right {
   background-image: none!important;
 }
+.multi-item-carousel .carousel-control.left {
+  position: absolute;
+  left: -120px;
+}
+.multi-item-carousel .carousel-control.right {
+  position: absolute;
+  right: -60px;
+}
 body {
   color: #ddd;
 }
