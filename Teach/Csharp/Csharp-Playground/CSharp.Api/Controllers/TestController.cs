@@ -58,6 +58,15 @@ namespace CSharp.Api.Controllers
             return Ok(x);
         }
 
+
+        [HttpGet]
+        [Route("better-x")]
+        public async Task<IActionResult> GetBetterx()
+        {
+            var d = await _ctx.TestItems.FirstOrDefaultAsync(x => x.BID == 1 && x.ID == 1);
+            return Ok(d);
+        }
+
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] TestItem test)
         {
