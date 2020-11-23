@@ -29,7 +29,9 @@ namespace CSharp.Api
         public void ConfigureServices(IServiceCollection services)
         {
             var connection = Configuration.GetConnectionString("DefaultConnection");
-            services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connection));
+            services.AddDbContext<AppDbContext>(options
+                        => options.UseSqlServer(connection)
+                                  .EnableSensitiveDataLogging());
 
 
             services.AddControllers();

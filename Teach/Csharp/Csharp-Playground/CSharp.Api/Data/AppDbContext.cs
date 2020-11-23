@@ -19,10 +19,12 @@ namespace CSharp.Api.Data
         }
 
         public virtual DbSet<TestItem> TestItems { get; set; }
+        public virtual DbSet<ExistResult> ExistResult { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfiguration(new ExistResultConfig());
             modelBuilder.ApplyConfiguration(new TestItemConfig());
         }
     }

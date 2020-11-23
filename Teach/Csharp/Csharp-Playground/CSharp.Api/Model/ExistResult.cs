@@ -5,10 +5,8 @@ using System.Threading.Tasks;
 
 namespace CSharp.Api.Model
 {
-    public class TestItem : ICorex
+    public class ExistResult
     {
-        public int BID { get; set; }
         public int ID { get; set; }
-        public string Name { get; set; }
     }
 }
