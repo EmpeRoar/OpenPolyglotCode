@@ -1,3 +1,9 @@
 fn main() {
-    println!("Hello World");
+
+    let x = 1;
+    let y = 2;
+    let total = x + y;
+
+
+    println!("Hello World {}", total);
 }
