@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\DELETEABLE\\OpenPolyglotCode\\CoderByte\\CoderByte\\CoderByte\\CoderByte.csproj": {}
+  },
+  "projects": {
+    "D:\\DELETEABLE\\OpenPolyglotCode\\CoderByte\\CoderByte\\CoderByte\\CoderByte.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DELETEABLE\\OpenPolyglotCode\\CoderByte\\CoderByte\\CoderByte\\CoderByte.csproj",
+        "projectName": "CoderByte",
+        "projectPath": "D:\\DELETEABLE\\OpenPolyglotCode\\CoderByte\\CoderByte\\CoderByte\\CoderByte.csproj",
+        "packagesPath": "C:\\Users\\JULIUS\\.nuget\\packages\\",
+        "outputPath": "D:\\DELETEABLE\\OpenPolyglotCode\\CoderByte\\CoderByte\\CoderByte\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JULIUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "D:\\CoreBridge\\Repos\\END-LocalNuget": {},
+          "D:\\DELETEABLE\\AuthSecurityExercise\\Authx-NuPkgs": {},
+          "D:\\DELETEABLE\\EventsExercise\\CoreBridge-EventsArchJbx-v2\\Jbx2-NuPkgs": {},
+          "D:\\DELETEABLE\\EventsExercise\\CoreBridge-EventsArchJbx\\Jbx-NugetSource": {},
+          "D:\\DELETEABLE\\EventsExercise\\JwtExercise\\Jwtx-NuPkgs": {},
+          "D:\\DELETEABLE\\EventsExercise\\Symbols Exercise\\App-PkgSource": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://devopsendor.pkgs.visualstudio.com/V3/_packaging/devbuild-packages/nuget/v3/index.json": {},
+          "https://myget.org/F/corebridgeteamcharlie/auth/6763fb1f-6c80-4b57-a3bb-3081f1840450": {},
+          "https://myget.org/F/corebridgeteamgemini/auth/595dad45-a34f-4f87-b67e-e509b70f2c3e": {},
+          "https://nuget.telerik.com/nuget": {},
+          "https://pkgs.dev.azure.com/Aquip-io/_packaging/Aquip-io/nuget/v3/index.json": {},
+          "https://www.myget.org/F/corebridgeshared/auth/0d553491-5244-4cbe-abec-564b1b025854": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
