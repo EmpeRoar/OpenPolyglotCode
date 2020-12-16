@@ -9,5 +9,7 @@ Customers Records
 2. https://graphql.org/learn/
 
 
+#### CSHARP
+- https://docs.microsoft.com/en-us/samples/browse/?products=azure&languages=aspx-csharp%2Ccsharp
 
 https://codepen.io/timar/pen/mabyEg
