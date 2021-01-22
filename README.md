@@ -13,3 +13,7 @@ Customers Records
 - https://docs.microsoft.com/en-us/samples/browse/?products=azure&languages=aspx-csharp%2Ccsharp
 
 https://codepen.io/timar/pen/mabyEg
+
+
+#### - CODING EXERCISE
+https://github.com/EmpeRoar/CodingExercise
